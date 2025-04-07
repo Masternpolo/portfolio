@@ -39,7 +39,7 @@ function Section() {
 
                 </section>
 
-                <section className="md:flex gap-4">
+                <section className="md:flex gap-2">
                     <div className="w-full bg-light rounded flex flex-col gap-8 py-4 px-4 mb-2">
                         <div className="w-44 flex items-center gap-4">
                             <div className="size-2 rounded-full bg-white">
@@ -51,6 +51,12 @@ function Section() {
                         </div>
                         <div className="flex justify-between text-white">
                             <h3>Book App</h3> <a href="#" className="text-gray">view</a>
+                        </div>
+                        <div className="flex justify-between text-white">
+                            <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
+                        </div>
+                        <div className="flex justify-between text-white">
+                            <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
                             <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
@@ -80,7 +86,7 @@ function Section() {
                 <section className="">
                     <div className="flex flex-col gap-4 md:flex-row">
                         <div className="w-full rounded flex flex-col gap-2 mb-2 md:flex-row md">
-                            <div className="bg-light rounded md:w-full">
+                            <div className="bg-light rounded md:w-full md:pr-6">
                                 <div className="flex justify-between p-4 mb-4">
                                     <div className="text-white ">
                                         <h3>IOS Mobile app</h3>
@@ -97,7 +103,7 @@ function Section() {
                                 </div>
                             </div>
                             <div className="flex flex-col gap-2 md:w-full">
-                                <div className="w-full flex flex-col justify-center bg-light rounded border px-4 py-4 md:w-full md:-mt-10">
+                                <div className="w-full flex flex-col justify-center bg-light rounded border px-4 py-4 md:w-full md:-mt-38 md:ml-0.5">
                                     <div className="flex justify-between px-4 py-8">
                                         <div className="text-white">
                                             <h3>IOS Mobile app</h3>
