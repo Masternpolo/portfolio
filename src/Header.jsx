@@ -16,15 +16,15 @@ const toggleNav = ()=> {setOpenNav(!openNav)}
                     <div className="border border-gray-400 rounded-full size-12 bg-light">
                         <img src={Bubbles} alt="Logo Icon" className='mt-2 mx-auto' />
                     </div>
-                    <div className={`${openNav ? '':'border border-gray-400 rounded-4xl'} w-80 bg-light md:w-full`}>
-                        <ul className={`${openNav ? 'flex':'hidden'} text-white flex-col h-44 mt-12 justify-between text-right px-4 pb-8 md:flex md:flex-row md:justify-between md:items-center md:py-2 md:px-12 md:h-0 md:mt-4`}>
+                    <div className={`${openNav ? 'ml-1':'border border-gray-400 rounded-4xl'} w-80 bg-light md:w-full`}>
+                        <ul className={`flex text-white ${openNav ? 'pb-8 h-44 justify-between':''}text-white flex-col mt-2.5 justify-between text-left px-4 md:flex md:flex-row md:justify-between md:items-center md:py-2 md:px-12 md:h-0 md:mt-4`}>
                             <li className='text-orange'>ABOUT
                                 <link rel="stylesheet" href="#" />
                             </li>
-                            <li>PORTFOLIO
+                            <li className={`${openNav ? 'flex':'hidden'} md:block`}>PORTFOLIO
                                 <link rel="stylesheet" href="#" />
                             </li>
-                            <li>CONTACT
+                            <li className={`${openNav ? 'flex':'hidden'} md:block`}>CONTACT
                                 <link rel="stylesheet" href="#" />
                             </li>
                         </ul>

@@ -15,7 +15,7 @@ function Section() {
             <main className="bg-dark mt-1 px-5 md:px-10 lg:px-16 xl:px-20">
                 <section className="w-full bg-light rounded flex flex-col gap-8 py-4 px-4 mb-2">
                     <div className="flex flex-col gap-4 md:flex-row-reverse md:justify-between md:w-full">
-                        <div className="w-44 flex items-center gap-4 md:flex-row">
+                        <div className=" flex items-center gap-4 md:flex-row">
                             <div className="size-2 rounded-full bg-red-500 ">
 
                             </div>
@@ -47,7 +47,7 @@ function Section() {
                             <p className="text-xs text-gray">Recent Works</p>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Nail Technician's App</h3> <a href="#" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
                             <h3>Book App</h3> <a href="#" className="text-gray">view</a>
@@ -56,7 +56,7 @@ function Section() {
                             <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Logistics App</h3> <a href="#" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
                             <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
