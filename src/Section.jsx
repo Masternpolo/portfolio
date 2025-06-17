@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
-import Profile from './assets/Profile.webp'
+import Profile from './assets/my_pic_resized.jpg'
 import Mobileapp from './assets/Mobileapp.png'
 import Arrowup from './assets/Arrowup.png'
-import Ai from './assets/Ai.png'
+import Ai from './assets/Alx.png'
 import Map from './assets/Map.png'
 
 
@@ -47,22 +47,22 @@ function Section() {
                             <p className="text-xs text-gray">Recent Works</p>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Nail Technician's App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Hotel Reservation App Backend</h3> <a href="https://github.com/Masternpolo/hotel_reservation_app" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Book App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Mock Exam App Backend</h3> <a href="https://github.com/Masternpolo/mock-exam-app" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Agbalanze Onitsha USA Static Website</h3> <a href="#" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Logistics App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Book App. Server side rendering</h3> <a href="https://github.com/Masternpolo/bookapp" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Task Management App Frontend</h3> <a href="https://task-manager-steel-pi.vercel.app/" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Task Management App</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Task Management App Backend</h3> <a href="https://github.com/Masternpolo/task-management--server" className="text-gray">view</a>
                         </div>
                     </div>
 
@@ -89,7 +89,7 @@ function Section() {
                             <div className="bg-light rounded md:w-full md:pr-6">
                                 <div className="flex justify-between p-4 mb-4">
                                     <div className="text-white ">
-                                        <h3>IOS Mobile app</h3>
+                                        <h3>My Web Development Certifications</h3>
                                         <p>Product development</p>
                                     </div>
                                     <div className="">
@@ -104,15 +104,7 @@ function Section() {
                             </div>
                             <div className="flex flex-col gap-2 md:w-full">
                                 <div className="w-full flex flex-col justify-center bg-light rounded border px-4 py-4 md:w-full md:-mt-38 md:ml-0.5">
-                                    <div className="flex justify-between px-4 py-8">
-                                        <div className="text-white">
-                                            <h3>IOS Mobile app</h3>
-                                            <p>Product development</p>
-                                        </div>
-                                        <div className="">
-                                            <img src={Arrowup} alt="" />
-                                        </div>
-                                    </div>
+                                    
                                     <div className="flex justify-center">
                                         <img src={Ai} alt="" />
                                     </div>
