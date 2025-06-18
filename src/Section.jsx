@@ -1,15 +1,22 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 import Profile from './assets/my_pic_resized.jpg'
-import Mobileapp from './assets/Mobileapp.png'
-import Arrowup from './assets/Arrowup.png'
+import Mobileapp1 from './assets/English_IT_1.jpg'
+import Hub from './assets/Hub.png'
 import Ai from './assets/Alx.png'
-import Map from './assets/Map.png'
+import Map from './assets/Career_Essentials.jpg'
 
 
 
 
 function Section() {
+
+    function copyEmail() {
+        const email = document.getElementById("email").textContent;
+        navigator.clipboard.writeText(email)
+            .then(() => alert("Email copied!"))
+            .catch(err => alert("Failed to copy email: ", err));
+    }
     return (
         <>
             <main className="bg-dark mt-1 px-5 md:px-10 lg:px-16 xl:px-20">
@@ -31,7 +38,8 @@ function Section() {
                             <h2 className='text-white text-2xl'>I'm Edeogu Ogomegbunam</h2>
                             <p className='text-gray'>I design user-friendly and <br /> responsive web apps
                             </p>
-                            <a className='text-white flex gap-0.5 rounded' href="#">
+                            <a className='text-white flex gap-0.5 rounded' href="#" onClick={copyEmail}>
+                                <span id="email" style={{ display: 'none' }}>masternpolo@gmail.com</span>
                                 <span className="p-2 rounded-tl-md rounded-bl-md bg-red-600">Hire me</span> <span className="p-2 rounded-tr-md rounded-br-md bg-red-600">+</span>
                             </a>
                         </div>
@@ -47,22 +55,22 @@ function Section() {
                             <p className="text-xs text-gray">Recent Works</p>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Hotel Reservation App Backend</h3> <a href="https://github.com/Masternpolo/hotel_reservation_app" className="text-gray">view</a>
+                            <h3>Hotel Reservation App Backend</h3> <a href="https://github.com/Masternpolo/hotel_reservation_app" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Mock Exam App Backend</h3> <a href="https://github.com/Masternpolo/mock-exam-app" className="text-gray">view</a>
+                            <h3>Mock Exam App Backend</h3> <a href="https://github.com/Masternpolo/mock-exam-app" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Agbalanze Onitsha USA Static Website</h3> <a href="#" className="text-gray">view</a>
+                            <h3>Agbalanze Onitsha USA Static Website</h3> <a href="#" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Book App. Server side rendering</h3> <a href="https://github.com/Masternpolo/bookapp" className="text-gray">view</a>
+                            <h3>Book App. Server side rendering</h3> <a href="https://github.com/Masternpolo/bookapp" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Task Management App Frontend</h3> <a href="https://task-manager-steel-pi.vercel.app/" className="text-gray">view</a>
+                            <h3>Task Management App Frontend</h3> <a href="https://task-manager-steel-pi.vercel.app/" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Task Management App Backend</h3> <a href="https://github.com/Masternpolo/task-management--server" className="text-gray">view</a>
+                            <h3>Task Management App Backend</h3> <a href="https://github.com/Masternpolo/task-management--server" target="_blank" className="text-gray">view</a>
                         </div>
                     </div>
 
@@ -86,8 +94,8 @@ function Section() {
                 <section className="">
                     <div className="flex flex-col gap-4 md:flex-row">
                         <div className="w-full rounded flex flex-col gap-2 mb-2 md:flex-row md">
-                            <div className="bg-light rounded md:w-full md:pr-6">
-                                <div className="flex justify-between p-4 mb-4">
+                            <div className="bg-light rounded md:w-full md:pr-6 border-all">
+                                {/* <div className="flex justify-between p-4 mb-4">
                                     <div className="text-white ">
                                         <h3>My Web Development Certifications</h3>
                                         <p>Product development</p>
@@ -95,23 +103,26 @@ function Section() {
                                     <div className="">
                                         <img src={Arrowup} alt="" />
                                     </div>
-                                </div>
-                                <div className="w-full flex flex-col justify-center items-center rounded px-4">
+                                </div> */}
+                                <div className="mb-4 w-full flex flex-col justify-center items-center rounded px-4">
                                     <div className="">
-                                        <img src={Mobileapp} alt="" className="" />
+                                        <img src={Hub} alt="" className="my-4" style={{ height: "17rem" }} />
+                                    </div>
+                                    <div className="">
+                                        <img src={Mobileapp1} alt="" className="" style={{ height: "17rem" }} />
                                     </div>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-2 md:w-full">
                                 <div className="w-full flex flex-col justify-center bg-light rounded border px-4 py-4 md:w-full md:-mt-38 md:ml-0.5">
-                                    
+
                                     <div className="flex justify-center">
                                         <img src={Ai} alt="" />
                                     </div>
                                 </div>
 
                                 <div className="w-full flex flex-col justify-center bg-light rounded border px-4 py-4 md:w-full">
-                                    <div className="flex justify-between px-4 py-8">
+                                    {/* <div className="flex justify-between px-4 py-8">
                                         <div className="text-white">
                                             <h3>IOS Mobile app</h3>
                                             <p>Product development</p>
@@ -119,7 +130,7 @@ function Section() {
                                         <div className="">
                                             <img src={Arrowup} alt="" />
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="flex justify-center">
                                         <img src={Map} alt="" />
                                     </div>
