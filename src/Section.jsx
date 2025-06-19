@@ -11,12 +11,12 @@ import Map from './assets/Career_Essentials.jpg'
 
 function Section() {
 
-    function copyEmail() {
-        const email = document.getElementById("email").textContent;
-        navigator.clipboard.writeText(email)
-            .then(() => alert("Email copied!"))
-            .catch(err => alert("Failed to copy email: ", err));
-    }
+    // function copyEmail() {
+    //     const email = document.getElementById("email").textContent;
+    //     navigator.clipboard.writeText(email)
+    //         .then(() => alert("Email copied!"))
+    //         .catch(err => alert("Failed to copy email: ", err));
+    // }
     return (
         <>
             <main className="bg-dark mt-1 px-5 md:px-10 lg:px-16 xl:px-20">
@@ -38,7 +38,7 @@ function Section() {
                             <h2 className='text-white text-2xl'>I'm Edeogu Ogomegbunam</h2>
                             <p className='text-gray'>I design user-friendly and <br /> responsive web apps
                             </p>
-                            <a className='text-white flex gap-0.5 rounded' href="#" onClick={copyEmail}>
+                            <a className='text-white flex gap-0.5 rounded' href="https://drive.google.com/uc?export=download&id=1GdAQoi6See6BflcUFywQ8Smiudz5ljjl">
                                 <span id="email" style={{ display: 'none' }}>masternpolo@gmail.com</span>
                                 <span className="p-2 rounded-tl-md rounded-bl-md bg-red-600">Hire me</span> <span className="p-2 rounded-tr-md rounded-br-md bg-red-600">+</span>
                             </a>
@@ -61,7 +61,7 @@ function Section() {
                             <h3>Mock Exam App Backend</h3> <a href="https://github.com/Masternpolo/mock-exam-app" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Agbalanze Onitsha USA Static Website</h3> <a href="#" target="_blank" className="text-gray">view</a>
+                            <h3>Agbalanze Onitsha USA Static Website</h3> <a href="https://agbalanze-onicha-usa.netlify.app/" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
                             <h3>Book App. Server side rendering</h3> <a href="https://github.com/Masternpolo/bookapp" target="_blank" className="text-gray">view</a>
