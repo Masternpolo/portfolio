@@ -61,7 +61,7 @@ function Section() {
                             <h3>Mock Exam App Backend</h3> <a href="https://github.com/Masternpolo/mock-exam-app" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
-                            <h3>Agbalanze Onitsha USA Static Website</h3> <a href="https://agbalanze-onicha-usa.netlify.app/" target="_blank" className="text-gray">view</a>
+                            <h3>Agbalanze Onitsha USA Static Website</h3> <a href="https://agbalanze-onicha-usa.vercel.app/" target="_blank" className="text-gray">view</a>
                         </div>
                         <div className="flex justify-between text-white">
                             <h3>Book App. Server side rendering</h3> <a href="https://github.com/Masternpolo/bookapp" target="_blank" className="text-gray">view</a>
@@ -72,17 +72,18 @@ function Section() {
                         <div className="flex justify-between text-white">
                             <h3>Task Management App Backend</h3> <a href="https://github.com/Masternpolo/task-management--server" target="_blank" className="text-gray">view</a>
                         </div>
+                        
                     </div>
 
                     <div className="w-full">
                         <div className="w-full h-28 bg-light rounded flex justify-center items-center py-4 px-4 mb-2">
                             <div className="text-center text-white">
-                                <p>My Design</p>
+                                <p>React Projects</p>
                             </div>
                         </div>
                         <div className="w-full rounded flex gap-2 mb-2">
                             <div className="w-full flex justify-center items-center h-28 bg-light rounded border px-4 mb-2">
-                                <p className="text-white">Product Design</p>
+                                <a className="text-white" href="https://logistics-site-ogons.vercel.app/" target="_blank" className="text-gray">view</a>
                             </div>
                             <div className="w-full flex justify-center items-center h-28 bg-light rounded border px-4 mb-2">
                                 <p className="text-white">Product Design</p>
