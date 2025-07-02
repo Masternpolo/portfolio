@@ -83,7 +83,7 @@ function Section() {
                         </div>
                         <div className="w-full rounded flex gap-2 mb-2">
                             <div className="w-full flex justify-center items-center h-28 bg-light rounded border px-4 mb-2">
-                                <a className="text-white" href="https://logistics-site-ogons.vercel.app/" target="_blank" className="text-gray">view</a>
+                                <a className="text-gray" href="https://logistics-site-ogons.vercel.app/" target="_blank" >view</a>
                             </div>
                             <div className="w-full flex justify-center items-center h-28 bg-light rounded border px-4 mb-2">
                                 <p className="text-white">Product Design</p>
