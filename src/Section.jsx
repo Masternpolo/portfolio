@@ -19,7 +19,7 @@ function Section() {
     // }
     return (
         <>
-            <main className="bg-dark mt-1 px-5 md:px-10 lg:px-16 xl:px-20">
+            <main className="bg-dark mt-1 px-5 md:px-10 transition-all duration-1000 ease-linear lg:px-16 xl:px-20">
                 <section className="w-full bg-light rounded flex flex-col gap-8 py-4 px-4 mb-2">
                     <div className="flex flex-col gap-4 md:flex-row-reverse md:justify-between md:w-full">
                         <div className=" flex items-center gap-4 md:flex-row">

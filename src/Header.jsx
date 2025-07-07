@@ -16,8 +16,8 @@ const toggleNav = ()=> {setOpenNav(!openNav)}
                     <div className="border border-gray-400 rounded-full size-12 bg-light">
                         <img src={Bubbles} alt="Logo Icon" className='mt-2 mx-auto' />
                     </div>
-                    <div className={`${openNav ? 'ml-1':'border border-gray-400 rounded-4xl'} w-80 bg-light md:w-full md:rounded-4xl md:border border-gray-400 md:ml-0`}>
-                        <ul className={`flex text-white ${openNav ? 'pb-8 h-44 justify-between':''}text-white flex-col mt-2.5 justify-between text-left px-4 md:flex md:flex-row md:justify-between md:items-center md:py-2 md:px-12 md:h-0 md:mt-4`}>
+                    <div className={`${openNav ? 'ml-1':'border border-gray-400 rounded-4xl'} w-80 bg-light md:w-full md:rounded-4xl md:border border-gray-400 md:ml-0 transition-all duration-1000 ease-linear`}>
+                        <ul className={`flex text-white ${openNav ? 'pb-8 h-44 justify-between transition-all duration-1000 ease-linear':''}text-white flex-col mt-2.5 justify-between text-left px-4 md:flex md:flex-row md:justify-between md:items-center md:py-2 md:px-12 md:h-0 md:mt-4`}>
                             <li className='text-orange'>ABOUT
                                 <link rel="stylesheet" href="#" />
                             </li>
